@@ -22,10 +22,8 @@ echo "[4/5] item index again";  python3 "$HERE/scripts/build_corpus_index.py"
 echo "[5/5] search index";      python3 "$HERE/scripts/build_search_index.py"
 
 if [ "${1:-}" = "--seed-memory" ]; then
-  # Claude Code names a plugin agent's memory folder when the agent first runs; reuse it if it exists
-  base="$HOME/.claude/agent-memory"; mkdir -p "$base"
-  target="$(ls -d "$base"/*miguel-causal-inference* 2>/dev/null | head -1 || true)"
-  target="${target:-$base/miguel-causal-inference}"; mkdir -p "$target"
+  # Claude Code keeps a plugin agent's memory at ~/.claude/agent-memory/<plugin>-<agent>/ (verified 2026-10-20)
+  target="$HOME/.claude/agent-memory/miguel-miguel-causal-inference"; mkdir -p "$target"
   n=0
   for f in "$HERE"/seed-memory/reference_*.md; do
     b="$(basename "$f")"

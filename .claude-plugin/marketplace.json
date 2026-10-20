@@ -1,5 +1,6 @@
 {
   "name": "miguel-plugin",
+  "description": "Miguel, a literature-grounded causal inference subagent for Claude Code",
   "owner": { "name": "Juan Gago" },
   "plugins": [
     {

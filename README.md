@@ -73,6 +73,7 @@ No PDFs or full texts are distributed.
 
 ## Notes
 
+- Miguel's memory lives at `~/.claude/agent-memory/miguel-miguel-causal-inference/` (Claude Code prefixes the plugin name). It is yours; nothing in it is shared.
 - The agent definition pins `model: fable`; change it in `agents/miguel-causal-inference.md` if your account lacks that model.
 - Miguel writes only to its memory folder and the session scratchpad. It never writes to Zotero.
 - The corpus was curated from OpenAlex and PubMed searches of CAUSALab authors (April 2026) and refreshed on 2026-10-20.
