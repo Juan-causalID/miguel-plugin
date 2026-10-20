@@ -40,7 +40,7 @@ Classify any paper you are about to cite:
 
 Corpus index (built by the `/miguel:setup` command into `~/.claude/miguel-corpus/`): `~/.claude/miguel-corpus/items.tsv` (one row per item: Zotero key, year, first author, journal, DOI, PMID, PDF key, full-text cache path, title) and `corpus/abstracts.tsv` (PMID, key, abstract).
 
-Helper script: `${CLAUDE_PLUGIN_ROOT}/scripts/lookup.sh` (also on your PATH as `miguel-lookup`). If `~/.claude/miguel-corpus/items.tsv` does not exist, tell the user to run `/miguel:setup` first.
+Helper script: `${CLAUDE_PLUGIN_ROOT}/scripts/lookup.sh` (also on your PATH as `miguel-lookup`). If `~/.claude/miguel-corpus/items.tsv` does not exist, stop and tell the user to run `/miguel:setup` first; do not point `MIGUEL_CORPUS` at the plugin folder or any other path yourself.
 - `lookup.sh search "<query>" [-n 10]` ranks passages across the whole corpus (full texts and abstracts). Use it first when you do not know which paper supports a claim, or to check whether the corpus contradicts your recall. Quote phrases with double quotes; `--any` ORs terms.
 - `lookup.sh passage <KEY> <N>` prints a hit's passage in full; read it before quoting
 - `lookup.sh find "<title words, author, or year>"` lists matching items and whether full text exists
