@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# On the PATH while the plugin is enabled. Same interface as scripts/lookup.sh:
+#   miguel-lookup search "<query>" | passage KEY N | find "<words>" | grep KEY "<regex>" | abstract KEY
+exec "$(cd "$(dirname "$0")/.." && pwd)/scripts/lookup.sh" "$@"

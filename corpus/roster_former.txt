@@ -1,0 +1,23 @@
+# Former CAUSALab members (one per line; lines starting with # are ignored).
+# Seeded 2026-10-20 from Wayback Machine snapshots of causalab.sph.harvard.edu/people/ (2021-2022)
+# minus names still on the current roster, plus the historical candidates from the April 2026 build.
+# Add names freely; refresh_candidates.py searches PubMed for each.
+Andrew Beam
+Ben Kompa
+David Bellamy
+Geetha Iyer
+Juan Pablo Casas
+Kerollos Wanis
+Louisa Smith
+Mariana Meireles
+Roger Logan
+# Added 2026-10-20 from archived causalab.sph.harvard.edu/team/ pages (2022-2024)
+Bijan Niknam
+Denys Shay
+Elena Rojco
+Eric Cohn
+Jessie Neuwirth
+Mathieu Chalouni
+Nedghie Adrien
+Steven Vaziri
+Kathleen Tajmajer

@@ -1,0 +1,11 @@
+{
+  "name": "miguel-plugin",
+  "owner": { "name": "Juan Gago" },
+  "plugins": [
+    {
+      "name": "miguel",
+      "source": "./",
+      "description": "Literature-grounded causal inference subagent with corpus search and provenance tags"
+    }
+  ]
+}
