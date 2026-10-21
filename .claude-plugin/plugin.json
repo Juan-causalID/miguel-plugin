@@ -1,6 +1,6 @@
 {
   "name": "miguel",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Miguel: a literature-grounded causal inference subagent. CAUSALab corpus, corpus-wide full-text search, mandatory provenance tags, verified-quote memory.",
   "author": { "name": "Juan Gago" },
   "repository": "https://github.com/Juan-causalID/miguel-plugin",
